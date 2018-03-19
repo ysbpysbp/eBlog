@@ -23,6 +23,9 @@
   "homepage": "https://github.com/ysbpysbp/eBlog#readme",
   "dependencies": {
     "koa": "^2.5.0",
-    "marked": "^0.3.17"
+    "marked": "^0.3.17",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
   }
 }
