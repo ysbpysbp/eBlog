@@ -13,7 +13,7 @@ const readFile = function (filename) {
   return new Promise((resolve, reject) => {
     fs.readFile(filename,'utf-8',  (err, data) => {
       if(err) {
-        resolve("404：页面未找到");
+        resolve("页面未找到");
       } else {
         const datas = marked(data.toString());
         resolve(datas);
